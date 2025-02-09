@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adds spacing between logo and input */
+    padding: 10px 20px; /* Adjust padding to control the navbar height */
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the logo size */
+  }
+  
+  .search-input input {
+    width: 500px; /* Set input box width */
+    padding: 5px 10px; /* Add padding for a better look */
+    border: 1px solid #ddd; /* Add border for clarity */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f0f5ff;
+    border: none;
+    height: 40px;
+  }
+  .search-input input:focus{
+    border: none;
+  }
+  .cart-icon{
+    cursor: pointer;
+  }
+  
