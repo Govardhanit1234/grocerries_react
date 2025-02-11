@@ -12,7 +12,10 @@ function Navbar() {
     <div className="navbar container">
       {/* Logo */}
       <div className="logo">
+        <Link to="/">
         <img src={logo} alt="logo" />
+        </Link>
+        
       </div>
 
       {/* Search Input */}

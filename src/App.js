@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Products from './components/products/Products';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cart from './components/cartPage/Cart';
+import ProductDetails from './components/productDetails/ProductDetails';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Products />} />
+          <Route path='/products/:id' element={<ProductDetails/>}/>
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
