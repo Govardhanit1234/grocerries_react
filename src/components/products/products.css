@@ -113,7 +113,7 @@
   }
   .popup {
     position: fixed;
-    top: 20px;
+    bottom: 10px;
     right: 20px;
     background-color: #4CAF50;
     color: white;
@@ -124,8 +124,43 @@
     transition: opacity 0.5s ease-in-out;
     z-index: 1000;
   }
+  a{
+    text-decoration: none !important;
+  }
   
   .popup.hide {
     opacity: 0;
   }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination .active {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  .active{
+    background-color:#007bff ;
+  }
+  
   
